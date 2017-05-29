@@ -1,0 +1,59 @@
+ul.left-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+ul.left-list li a {
+    display: block;
+    color: #F6EAEA;
+    padding: 16px 16px 15.2px 15px;
+    text-decoration: none;
+
+}
+
+ul.left-list li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div.left-nav {
+  background-color:#272222;
+}
+
+div.upper-nav {
+  background-color: #572B2B;
+  height: 50px;
+}
+
+div.logged-user p{
+  padding: 7px 7px 7px 7px;
+  color: white;
+}
+
+div.name{
+  padding: 16px 16px 15.2px 15px;
+}
+
+div.add{
+  padding: 16px 16px 15.2px 15px;
+}
+
+div.search{
+  padding: 16px 16px 15.2px 15px;
+}
+
+table, td, th {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 16px 16px 16px 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
